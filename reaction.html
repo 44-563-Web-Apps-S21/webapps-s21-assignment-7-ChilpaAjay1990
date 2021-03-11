@@ -33,7 +33,10 @@
     }
     function startTime() {
       for (let i = 0; i < 4; i++) {
-        var j = (3 - i) * 1000;
+        
+        var rand=Math.floor(Math.random()*(max-min)+min)
+      for (let i = 0; i < rand; i++) {
+        var j = (rand - i) * 1000; 
 
         setTimeout(() => {
 
